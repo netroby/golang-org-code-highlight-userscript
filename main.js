@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Golang.org code highlight
 // @namespace    https://www.netroby.com/
-// @version      0.1
+// @version      0.2
 // @description  Add code highlight in golang.org
 // @author       netroby
 // @include      https://golang.org/*
@@ -10,7 +10,8 @@
 // ==/UserScript==
 /* jshint -W097 */
 'use strict';
-var allpre = document.body.getElementsByTagName("pre")
+console.log("Golang.org code highlight loaded!");
+var allpre = document.body.getElementsByTagName("pre");
 for (var i = 0; i < allpre.length; i++) {
     allpre[i].classList.add('prettyprint');
 }
