@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Golang.org code highlight
 // @namespace    https://www.netroby.com/
-// @version      0.2
+// @version      0.3
 // @description  Add code highlight in golang.org
 // @author       netroby
 // @include      https://golang.org/*
-// @match        https://golang.org/*
+// @include      https://godoc.org/*
 // @grant        none
 // ==/UserScript==
 /* jshint -W097 */
